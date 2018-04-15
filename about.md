@@ -16,9 +16,9 @@ We can do software architecture, software development, web app development, mobi
 Get in touch with us and let us hear about your project. If you have aleady devised the requirements, we can give you a time and cost estimation, otherwise we can work on an hourly basis.
 
 <div class="message">
-  WhiteCity Code SRL
-  Ioan Alexandru 37b
-  Alba Iulia, Alba, Romania
-  +40 358 401 824
+  WhiteCity Code SRL<br>
+  Ioan Alexandru 37b<br>
+  Alba Iulia, Alba, Romania<br>
+  +40 358 401 824<br>
   hq [at] whitecitycode.com
 </div>
