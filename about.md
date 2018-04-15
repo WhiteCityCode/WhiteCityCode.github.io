@@ -3,28 +3,20 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+## Who we are
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+A Romanian company based in Alba Iulia (White City). We are a highly qualified and experienced team, with a total of 18 years of studies in Computer Science, Management, Translations and even Law.
 
-There are currently two themes built on Poole:
+## How we can help
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+We can do software architecture, software development, web app development, mobile app development, software deployment. We have experience with large applications, e-commerce, API integrations.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## How we can work together
 
-## Setup
+Get in touch with us and let us hear about your project. If you have aleady devised the requirements, we can give you a time and cost estimation, otherwise we can work on an hourly basis.
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+> WhiteCity Code SRL
+> Ioan Alexandru 37b
+> Alba Iulia, Alba, Romania
+> +40 358 401 824
+> hq [at] whitecitycode.com
