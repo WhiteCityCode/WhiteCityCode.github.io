@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           blog.whitecitycode.com/article/:title/
+permalink:           /article/:title/
 relative_permalinks: false
 
 # Setup
