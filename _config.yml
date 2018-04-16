@@ -8,8 +8,8 @@ permalink:           pretty
 title:               'WhiteCity Code'
 tagline:             'official blog'
 description:         'We write on development topics, functional programming and challenges we encounter and solve.'
-url:                 https://whitecitycode.com
-baseurl:             ''
+url:                 blog.whitecitycode.com
+baseurl:             '/'
 paginate:            5
 
 # About/contact
