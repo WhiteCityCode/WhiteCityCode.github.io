@@ -11,6 +11,7 @@ description:         'We write on development topics, functional programming and
 url:                 blog.whitecitycode.com
 baseurl:             '/'
 paginate:            5
+excerpt_separator: <!--more-->
 
 # About/contact
 author:
