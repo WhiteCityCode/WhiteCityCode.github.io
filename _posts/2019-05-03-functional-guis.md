@@ -8,6 +8,7 @@ Programming GUIs poses a number of interesting problems and has known over the y
 For one it is considered unacceptable for a graphical interface to block while some work is being performed due to usability reasons and thus entails the existence of at least 2 threads of computing, one for background work and one for interface updates. Serializing the actions and their results in a consistent and predictable manner has been a challenge for programmers for various reasons, ranging from complexity of the state and state update dependency calculations to displaying proper results to the user.
 
 In recent years versions of a functional approach to the problem -- namely Functional Reactive Programming -- have known a great deal of success being implemented in imperative languages mainly due to providing a good structure to Single Page Applications written in javascript. This is an indication that there is a great interest in the simplicity provided by the functional framework to the overall process of structuring an application.
+<!--more-->
 
 As popular as the approach is it still does not fulfill the age-old promise of perfect decoupling of components in programming nor the one of minimizing the cognitive burden on the programmer when trying to achieve this decoupling. Moreover, complexity appears to be the single most frequent cause of software errors, leading to less stable software. Due to concurrency this issue is especially prevalent in GUI programming.
 
