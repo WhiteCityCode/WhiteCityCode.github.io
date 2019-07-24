@@ -47,7 +47,7 @@ $$
 
 that abides by the arrow laws. Because the signal types available to the programmer are specified at the source level and their constructors are not available for direct usage the usage of signals is both restricted to avoid leaks and respect causality. Even with these measures, leaks are still possible in the host implementation due to the *instant update assumption*[^fn-3] that states that the semantics of arrows can be respected as long as sampling interval for updates goes to 0.
 
-*Czaplicki* uses the concept of signal arrows in the creation of his Elm language to disallow folds from the past of signals that drop signals during the fold. For this reason the type representing a signal in Elm is only an applicative functor, not a monad (*join*-ing would be flattening the signal). At the same time, a signal is isomorphic to an arrow from the World (environment) to the value $\alpha$:
+*Czaplicki* uses the concept of signal arrows in the creation of his Elm language to disallow folds from the past of signals that drop signals during the fold. For this reason the type representing a signal in Elm is only an applicative functor, not a monad (*join*-ing would be flattening the signal). At the same time, a signal is isomorphic to an arrow from the World (environment) to the value \(\alpha\):
 
 $$
 Signal ~ \alpha \approx SF ~ World ~ \alpha
