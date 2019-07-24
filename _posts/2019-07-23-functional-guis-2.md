@@ -21,11 +21,10 @@ The original implementation is very expressive and flexible, posing no significa
 
 Subsequent updates to the classical FRP utilize the observation that the discrete case of the event system is isomorphic to the continuous case for optional values:
 
-$$
-Maybe ~ \alpha = Just ~ \alpha ~|~ Nothing;
-\hspace{3pt}
-Event ~ \alpha \approx Behavior ~(Maybe ~ \alpha)
-$$
+```
+Maybe a = Just a | Nothing;
+Event a \\(\approx\\) Behavior (Maybe a)
+```
 
 leading to both events and behaviors being represented by a *signal*:
 
@@ -37,7 +36,7 @@ With this new data type it is possible to introduce a more restrictive language 
 
 These approaches, while working, lose some of the expresiveness of the classical FRP. The efforts to reclaim this expresiveness while maintaining the safety guarantees lead to *arrowized FRP*.
 
-An *arrow* is the generalization of a function at type level in a pure functional programming language. In a category theory interpretation of arrows that suits computing best (where $V$ is $Set$ ) they are monoids in the category of bifunctors \\(C^{op} \times C \rightarrow V\\) where \\(V\\) is a symmetric closed monoid and \\(C\\) is \\(V\\)-enriched [^fn-2]. This allows arrows to compose while retaining some context of the computation in the chaining.
+An *arrow* is the generalization of a function at type level in a pure functional programming language. In a category theory interpretation of arrows that suits computing best (where \\(V\\) is \\(Set\\) ) they are monoids in the category of bifunctors \\(C^{op} \times C \rightarrow V\\) where \\(V\\) is a symmetric closed monoid and \\(C\\) is \\(V\\)-enriched [^fn-2]. This allows arrows to compose while retaining some context of the computation in the chaining.
 
 *Arrowized FRP* overcomes the limitations of classical, real-time and event-based FRP by restricting access to signals to avoid time and space leaks and by reclaiming the expressiveness of classical FRP through the properties of an arrow. It defines a datataype
 
