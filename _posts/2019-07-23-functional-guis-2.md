@@ -37,7 +37,7 @@ With this new data type it is possible to introduce a more restrictive language 
 
 These approaches, while working, lose some of the expresiveness of the classical FRP. The efforts to reclaim this expresiveness while maintaining the safety guarantees lead to *arrowized FRP*.
 
-An *arrow* is the generalization of a function at type level in a pure functional programming language. In a category theory interpretation of arrows that suits computing best (where `V` is $Set$ ) they are monoids in the category of bifunctors `C^{op} \times C \rightarrow V` where $V$ is a symmetric closed monoid and $C$ is $V$-enriched [^fn-2]. This allows arrows to compose while retaining some context of the computation in the chaining.
+An *arrow* is the generalization of a function at type level in a pure functional programming language. In a category theory interpretation of arrows that suits computing best (where $V$ is $Set$ ) they are monoids in the category of bifunctors \\(C^{op} \times C \rightarrow V\\) where \\(V\\) is a symmetric closed monoid and \\(C\\) is \\(V\\)-enriched [^fn-2]. This allows arrows to compose while retaining some context of the computation in the chaining.
 
 *Arrowized FRP* overcomes the limitations of classical, real-time and event-based FRP by restricting access to signals to avoid time and space leaks and by reclaiming the expressiveness of classical FRP through the properties of an arrow. It defines a datataype
 
@@ -47,7 +47,7 @@ $$
 
 that abides by the arrow laws. Because the signal types available to the programmer are specified at the source level and their constructors are not available for direct usage the usage of signals is both restricted to avoid leaks and respect causality. Even with these measures, leaks are still possible in the host implementation due to the *instant update assumption*[^fn-3] that states that the semantics of arrows can be respected as long as sampling interval for updates goes to 0.
 
-*Czaplicki* uses the concept of signal arrows in the creation of his Elm language to disallow folds from the past of signals that drop signals during the fold. For this reason the type representing a signal in Elm is only an applicative functor, not a monad (*join*-ing would be flattening the signal). At the same time, a signal is isomorphic to an arrow from the World (environment) to the value `\alpha`):
+*Czaplicki* uses the concept of signal arrows in the creation of his Elm language to disallow folds from the past of signals that drop signals during the fold. For this reason the type representing a signal in Elm is only an applicative functor, not a monad (*join*-ing would be flattening the signal). At the same time, a signal is isomorphic to an arrow from the World (environment) to the value \\(\alpha\\)):
 
 $$
 Signal ~ \alpha \approx SF ~ World ~ \alpha
