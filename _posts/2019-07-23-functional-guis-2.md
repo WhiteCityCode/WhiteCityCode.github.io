@@ -21,9 +21,9 @@ The original implementation is very expressive and flexible, posing no significa
 
 Subsequent updates to the classical FRP utilize the observation that the discrete case of the event system is isomorphic to the continuous case for optional values:
 
-```
+```haskell
 Maybe a = Just a | Nothing;
-Event a \\(\approx\\) Behavior (Maybe a)
+Event a = Behavior (Maybe a)
 ```
 
 leading to both events and behaviors being represented by a *signal*:
